@@ -1,5 +1,5 @@
-<h1 align='center'>Hello!</h1>
-<h3 align='center'>I'm Dustin, 31 years, Front End Developer from Hamburg, Germany.</h3>
+<h1 align='center'>Hello I'm Dustin!/h1>
+<h3 align='center'>31 years, Front End Developer from Hamburg, Germany.</h3>
 
 <h3 align='center'> 🚀 Technologies </h3>
 <p align="center">
@@ -26,10 +26,6 @@
 
 <h3 align='center'> 📊 &nbsp;Analytics </h3>
 <p align="center">
-<a href="https://github.com/dstN">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dstN&theme=radical&langs_count=8&count_private=true&layout=compact">
-</a>
-<a href="https://github.com/dstN">
   <img align="center" src="https://github-readme-stats-self-five.vercel.app/api?username=dstN&theme=radical&count_private=true&show_icons=true">
-</a>
 </p>
