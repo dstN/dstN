@@ -23,9 +23,3 @@
 <a href="https://www.atlassian.com/de/software/jira"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="50px"></a>
 <a href="https://code.visualstudio.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50px"></a>
 <a href="https://www.google.com/intl/en_us/chrome/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="50px"></a>
-
-<h3 align='center'> 📊 &nbsp;Analytics </h3>
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dstN&theme=radical&langs_count=8&count_private=true&layout=compact">
-  <img align="center" src="https://github-readme-stats-self-five.vercel.app/api?username=dstN&theme=radical&count_private=true&show_icons=true">
-</p>
