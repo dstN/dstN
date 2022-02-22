@@ -27,7 +27,7 @@
 <h3 align='center'> 📊 &nbsp;Analytics </h3>
 <p align="center">
 <a href="https://github.com/dstN">
-  <img align="center" src="https://github-readme-dstn.vercel.app/api/top-langs/?username=dstN&theme=radical&langs_count=10&count_private=true">
+  <img align="center" src="https://github-readme-dstn.vercel.app/api/top-langs/?username=dstN&theme=radical&langs_count=4&count_private=true">
 </a>
 <a href="https://github.com/dstN">
   <img align="center" src="https://github-readme-dstn.vercel.app/api?username=dstN&theme=radical&count_private=true&show_icons=true">
