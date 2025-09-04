@@ -1,5 +1,5 @@
 <h1 align='center'>Hello I'm Dustin!</h1>
-<h3 align='center'>34 years, Front End Developer from Hamburg, Germany.</h3>
+<h3 align='center'>35 years, Front End Developer from Hamburg, Germany.</h3>
 
 <h3 align='center'> 🚀 Technologies </h3>
 <p align="center">
@@ -23,13 +23,3 @@
 <a href="https://www.atlassian.com/de/software/jira"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="50px"></a>
 <a href="https://code.visualstudio.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50px"></a>
 <a href="https://www.google.com/intl/en_us/chrome/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="50px"></a>
-  
-<h3 align='center'> 📊 &nbsp;Analytics </h3>
-<p align="center">
-<a href="https://github.com/dstN">
-  <img align="center" src="https://github-readme-dstn.vercel.app/api/top-langs/?username=dstN&theme=radical&langs_count=4&count_private=true">
-</a>
-<a href="https://github.com/dstN">
-  <img align="center" src="https://github-readme-dstn.vercel.app/api?username=dstN&theme=radical&count_private=true&show_icons=true">
-</a>
-</p>
