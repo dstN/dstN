@@ -1,17 +1,31 @@
 # Dustin Tramm — dstN
 
-Front End Developer in Hamburg, Germany. 10+ years building interfaces — mostly Vue and Nuxt,
-increasingly Astro and SvelteKit — with a standing interest in accessibility, privacy by
-architecture, and owning the deployment rather than renting it.
+Front End Developer in Hamburg, Germany. 10+ years building interfaces — Vue and Nuxt at work,
+Astro and SvelteKit alongside it. Accessibility and privacy are where I spend the extra effort.
 
 [**dstn.github.io**](https://dstn.github.io) · [all 19 projects](https://dstn.github.io/work/)
 
 ---
 
+## Non-negotiables
+
+**Accessibility is a gate, not a pass.** `@axe-core/playwright` runs in CI across every route,
+theme and viewport — a failing audit blocks the deploy the same way a failing test does. bewerby
+is audited against WCAG 2.2 **AAA**, not AA. When I wanted that check on everything, I built
+Axie: a self-hosted Playwright + axe-core audit service whose reports are fully offline-capable,
+base64 fonts and inline SVGs, no external requests.
+
+**Privacy belongs in the architecture, not the cookie banner.** Where an app can work without a
+backend, it does: bewerby keeps applications in IndexedDB and PDF attachments in OPFS, so there
+is no account and no server-side database to breach. Twittr Archivr unzips and searches your
+Twitter export in the browser — the file never leaves your machine. No CDN fonts anywhere, which
+is exactly why `fli` exists. Where user data is unavoidable, GDPR export and erasure are built in
+from the start rather than retrofitted.
+
 ## Shipping
 
 | Project | What it is | Where |
-|:---|:---|:---|
+| :--- | :--- | :--- |
 | **GourMerge** | Git for recipes — branches, commits, forks and diffable merge requests | [gourmerge.de](https://gourmerge.de) |
 | **bewerby** | Job application tracker that runs entirely in the browser. No account, no server-side database | [bewerby.de](https://bewerby.de) |
 | **EuroDraft** | Draft an all-time XI from sixty years of tournament squads, then simulate the tournament | [ed.rntm.de](https://ed.rntm.de) · [source](https://github.com/dstN/EuroDraft) |
@@ -19,7 +33,6 @@ architecture, and owning the deployment rather than renting it.
 | **footyguess** | Guess the footballer from progressively revealed career data | [footyguess.yinside.de](https://footyguess.yinside.de) |
 | **Twittr Archivr** | Search a Twitter/X export locally — the parsing happens in your browser | [twittrarchivr.vercel.app](https://twittrarchivr.vercel.app) |
 | **Threads Deleter** | Bulk-delete Threads posts via Meta's API. CLI and web dashboard off one core | [threadsdelete.vercel.app](https://threadsdelete.vercel.app) · [source](https://github.com/dstN/threadsDeleter) |
-| **tower67** | 2D air-traffic-control game where mouse and voice feed one command pipeline | [source](https://github.com/dstN/tower67) |
 
 ## On npm
 
@@ -31,25 +44,13 @@ architecture, and owning the deployment rather than renting it.
 ## Stack
 
 | | |
-|:---|:---|
-| **Languages** | TypeScript, JavaScript, CSS, HTML, Python, PHP |
-| **Frameworks** | Nuxt 4 (Vue 3), Astro, SvelteKit (Svelte 5), Next.js |
+| :--- | :--- |
+| **Languages** | TypeScript, JavaScript, CSS, HTML, PHP, Python |
+| **Frameworks** | Vue 3, Nuxt 4, Astro, SvelteKit (Svelte 5), React, Next.js, NestJS |
+| **Templating** | Twig, MJML |
+| **Styling** | Vanilla CSS with `oklch()` design tokens, CSS Layers, container queries, Tailwind CSS, SASS, Bootstrap |
+| **CMS** | WordPress (Composer-managed block themes), Joomla, NEOS, Directus |
 | **Backend** | Nitro/H3, Fastify, FastAPI, Express |
 | **Data** | MySQL/MariaDB via Drizzle, SQLAlchemy 2.0, SQLite, IndexedDB + OPFS |
-| **Styling** | Vanilla CSS with `oklch()` design tokens, Tailwind CSS |
 | **Testing** | Vitest, Playwright, @axe-core/playwright |
-| **Ops** | GitHub Actions, Docker Compose, Netcup/Plesk via Passenger, DDEV |
-| **CMS** | WordPress (Composer-managed, custom block themes), Directus |
-
-## How I work
-
-**Accessibility is a gate, not a pass.** axe-core runs in CI across every route, theme and
-viewport. bewerby is audited against WCAG 2.2 AAA rather than AA — and Axie, a self-hosted
-Playwright + axe-core audit service, came out of wanting that check everywhere.
-
-**Privacy by architecture.** Where an app can work without a backend, it does: bewerby keeps
-applications in IndexedDB and PDF attachments in OPFS, Twittr Archivr unzips and searches your
-export in the browser. No CDN fonts anywhere — that is precisely what `fli` exists for.
-
-**I own the deploy.** Most of these run on my own Netcup/Plesk boxes over Phusion Passenger
-rather than serverless, because the ops half is part of the job.
+| **Tooling** | Git, Vite, Docker, DDEV, GitHub Actions, Figma |
